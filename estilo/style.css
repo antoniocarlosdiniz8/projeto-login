@@ -7,25 +7,28 @@ Verde #49a09d
 Lilás #5f2c82
 */
 
-*{
+* {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-body, html{
+body,
+html {
     background-color: #5f2c82;
     height: 100vh;
     width: 100vw;
 
 }
-main{
+
+main {
     position: relative;
     height: 100vh;
     width: 100vw;
 }
-section#login{
+
+section#login {
     display: block;
     position: absolute;
     background-color: white;
@@ -39,7 +42,8 @@ section#login{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
 
 }
-section#login > div#imagem{
+
+section#login>div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/pexels-rodrigo-souza-2531608.jpg);
     background-position: center center;
@@ -48,6 +52,7 @@ section#login > div#imagem{
     height: 200px;
 
 }
-section#login > div#formulario{
+
+section#login>div#formulario {
     padding: 10px;
 }
