@@ -57,3 +57,11 @@ section#login>div#imagem {
 section#login>div#formulario {
     padding: 10px;
 }
+
+#formulario>h1 {
+    text-align: center;
+}
+
+#formulario>p {
+    font-size: 1rem;
+}
