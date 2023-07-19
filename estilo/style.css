@@ -65,3 +65,56 @@ section#login>div#formulario {
 #formulario>p {
     font-size: 1rem;
 }
+
+form>input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form>div.campo {
+    background-color: #5f2c82;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+
+}
+
+div.campo>label {
+    display: none;
+}
+
+form>input[type=submit]:hover {
+    background-color: #044b48;
+}
+
+form>a.botao {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: #5f2c82;
+    border-radius: 5px;
+    margin-top: 3px;
+    color: white;
+    padding: 3px;
+}
+
+form>a.botao:hover {
+    background-color: #044b48;
+
+}
+
+form a.botao>span {
+    font-size: 1.6em;
+}
